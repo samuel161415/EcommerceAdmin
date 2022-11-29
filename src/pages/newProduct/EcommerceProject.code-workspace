@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../ReactProjects/Ecommerce"
+		},
+		{
+			"path": "../../../../../BBT_Inflow/inflow"
+		},
+		{
+			"path": "../../../../../ReactProjects/ReactFirebase"
+		}
+	],
+	"settings": {}
+}
