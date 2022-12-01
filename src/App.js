@@ -27,6 +27,7 @@ function App() {
  useEffect(()=>{
   setAdmin(JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.isAdmin)
  },[admin])
+ console.log("user",admin)
   return (
     <Router>
       <Switch>
