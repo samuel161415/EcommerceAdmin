@@ -25,7 +25,7 @@ function App() {
  //const admin = false;
  //console.log("user",user.currentUser.isAdmin)
  useEffect(()=>{
-  console.log("Data",JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user));
+  console.log("Data",JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser);
   setAdmin(JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.isAdmin)
  },[admin])
  console.log("user",admin)
