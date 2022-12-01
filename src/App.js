@@ -19,7 +19,7 @@ import Login from "./pages/login/Login";
 import { useEffect,useState } from "react";
 
 function App() {
- const [admin,setAdmin]=useState(false)
+ const [admin,setAdmin]=useState(true)
  //const user=useSelector(state=> state.user);
  //console.log("user",user)
  //const admin = false;
